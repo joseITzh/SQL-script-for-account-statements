@@ -1,0 +1,14 @@
+Here's an example SQL script that you can use to generate account statements:
+
+```
+SELECT transaction_date, transaction_type, transaction_amount,
+       balance, description
+FROM transactions
+WHERE account_number = '[insert account number here]'
+ORDER BY transaction_date;
+```
+
+In this script, you would replace `[insert account number here]` with the account number you want to generate a statement for. The `transactions` table would need to contain information about all transactions associated with the specified account.
+
+The output of this script would provide a list of all transactions associated with the specified account, along with the transaction date, type, and amount, as well as the account balance after each transaction. The `description` column could be used to provide additional information about each transaction, such as the name of the merchant or the reason for the transaction.
+ 
