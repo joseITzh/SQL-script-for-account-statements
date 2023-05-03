@@ -1,0 +1,61 @@
+Documentation
+
+Features
+
+Load data from anywhere
+
+Raw text
+
+Web page
+
+Files
+
+Word
+
+Excel
+
+Powerpoint
+
+PDF
+
+Mardown
+
+Plain Text
+
+Web Site (coming soon)
+
+Notion (coming soon)
+
+Airtable (coming soon)
+
+No-code: User-friendly interface to manage your datastores and chat with your data
+
+Securized API endpoint for querying your data
+
+Auto sync data sources (coming soon)
+
+Auto generates a ChatGPT Plugin for each datastore
+
+Semantic Search Specs
+
+Vector Datbase: Qdrant
+
+Embeddigs: Openai's text-embedding-ada-002
+
+Chunk size: 256 tokens
+
+Stack
+
+Next.js
+
+Joy UI
+
+LangchainJS
+
+PostgreSQL
+
+Prisma
+
+Qdrant
+
+Inspired by the ChatGPT Retrieval Plugin
